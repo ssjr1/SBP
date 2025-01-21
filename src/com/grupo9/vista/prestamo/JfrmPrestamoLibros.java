@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package controlador;
+package com.grupo9.vista.prestamo;
 
 import javax.swing.BorderFactory;
 import javax.swing.border.Border;
@@ -219,7 +219,6 @@ public class JfrmPrestamoLibros extends javax.swing.JFrame {
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, 730, 150));
 
         txtIdPrestamo.setBackground(new java.awt.Color(215, 216, 117));
-        txtIdPrestamo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.LOWERED));
         jPanel1.add(txtIdPrestamo, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 90, 20));
 
         jButton4.setBackground(new java.awt.Color(215, 216, 117));
