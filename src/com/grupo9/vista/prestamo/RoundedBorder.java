@@ -1,5 +1,5 @@
 
-package controlador;
+package com.grupo9.vista.prestamo;
 
 import java.awt.Color;
 import java.awt.Component;

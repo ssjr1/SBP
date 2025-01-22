@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package controlador;
+package com.grupo9.vista.prestamo;
 
 import javax.swing.BorderFactory;
 import javax.swing.border.Border;
