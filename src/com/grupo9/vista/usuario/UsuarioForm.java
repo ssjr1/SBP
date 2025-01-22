@@ -4,14 +4,6 @@
  */
 package com.grupo9.vista.usuario;
 
-<<<<<<< HEAD
-/**
- *
- * @author ADMIN
- */
-public class UsuarioForm {
-    
-=======
 import static java.awt.AWTEventMulticaster.add;
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -119,5 +111,22 @@ public class UsuarioForm {
         add(scrollPane, BorderLayout.CENTER); // Tabla en el centro
         add(buttonPanel, BorderLayout.SOUTH); // Botones en la parte inferior
     }
->>>>>>> 8c4c95c8b5226046efbcabb3c45025ae31af728e
+
+    public JButton getBtnAgregar() {
+        return btnAgregar;
+    }
+
+    public JButton getBtnEditar() {
+        return btnEditar;
+    }
+
+    public JButton getBtnEliminar() {
+        return btnEliminar;
+    }
+
+    public JButton getBtnLimpiar() {
+        return btnLimpiar;
+    }
+    
+    
 }
