@@ -14,8 +14,9 @@ import java.awt.event.ActionListener;
  * @author stvpibe
  */
 public class LoginController implements ActionListener {
+
     private final LoginForm login;
-    
+
     public LoginController(LoginForm login) {
         this.login = login;
         this.login.getBtnLogin().addActionListener(this);
@@ -38,6 +39,5 @@ public class LoginController implements ActionListener {
             System.out.println("Error inesperado");
         }
     }
-    
-    
+
 }

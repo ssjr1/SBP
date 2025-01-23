@@ -4,6 +4,7 @@
  */
 package com.grupo9.vista.principal;
 
+import com.grupo9.controlador.principal.PrincipalController;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -33,6 +34,7 @@ public class PrincipalForm extends JFrame {
         setExtendedState(MAXIMIZED_BOTH);
         setLayout(new BorderLayout());
         initComponents();
+        new PrincipalController(this);
     }
 
     private void initComponents() {
@@ -81,7 +83,7 @@ public class PrincipalForm extends JFrame {
         return button;
     }
 
-    private void showContent(JComponent component) {
+    public void showContent(JComponent component) {
         // Limpia el contenido actual
         contentPanel.removeAll();
 
@@ -92,4 +94,22 @@ public class PrincipalForm extends JFrame {
         contentPanel.revalidate();
         contentPanel.repaint();
     }
+
+    public JPanel getContentPanel() {
+        return contentPanel;
+    }
+
+    public JButton getBtnUsuario() {
+        return btnUsuario;
+    }
+
+    public JButton getBtnLibro() {
+        return btnLibro;
+    }
+
+    public JButton getBtnPrestamo() {
+        return btnPrestamo;
+    }
+    
+    
 }

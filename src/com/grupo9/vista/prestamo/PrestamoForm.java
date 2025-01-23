@@ -4,21 +4,21 @@
  */
 package com.grupo9.vista.prestamo;
 
-import javax.swing.BorderFactory;
+import javax.swing.JFrame;
 import javax.swing.border.Border;
 
 /**
  *
  * @author MICHELLE
  */
-public class JfrmPrestamoLibros extends javax.swing.JFrame {
+public class PrestamoForm extends JFrame {
 
     /**
      * Creates new form JfrmPrestamoLibros
      */
-    public JfrmPrestamoLibros() {
+    public PrestamoForm() {
         initComponents();
-        
+
         Border roundedBorder = new RoundedBorder(15); // Radio de 15
         txtBuscar.setBorder(roundedBorder);
         txtIdCliente.setBorder(roundedBorder);
